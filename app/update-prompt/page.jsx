@@ -19,7 +19,7 @@ const UpdatePrompt = () => {
 
   useEffect(() => {
     const getPromptDetails = async () => {
-      if (!promptId) return;
+      // if (!promptId) return;
       
       const response = await fetch(`/api/prompt/${promptId}`);
       const data = await response.json();
@@ -30,7 +30,7 @@ const UpdatePrompt = () => {
       });
     };
 
-    getPromptDetails();
+    if(promptId) getPromptDetails();
   }, [promptId]);
 
   const updatePrompt = async (e) => {
