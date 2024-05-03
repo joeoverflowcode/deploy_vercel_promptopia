@@ -5,10 +5,10 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import Form from "@components/Form";
 
-import { useEffect, useState } from "react";
-import { useRouter } from "next/router";
+// import { useEffect, useState } from "react";
+// import { useRouter } from "next/router";
 
-import Form from "@components/Form";
+// import Form from "@components/Form";
 
 const UpdatePrompt = () => {
   const router = useRouter();
