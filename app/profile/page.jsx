@@ -24,12 +24,10 @@ const MyProfile = () => {
   }, [session?.user.id]);
 
   const handleEdit = (post) => {
-    console.log('edit initiated')
     router.push(`/update-prompt?id=${post._id}`);
   };
 
   const handleDelete = async (post) => {
-    console.log("delete initiated")
     const hasConfirmed = confirm(
       "Are you sure you want to delete this prompt?"
     );
@@ -61,7 +59,6 @@ const MyProfile = () => {
 };
 
 export default MyProfile;
-
 
 // "use client";
 
