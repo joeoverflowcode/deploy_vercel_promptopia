@@ -7,10 +7,11 @@ const Home = () => {
       Discover  &  Share 
       <br className="max-md:hidden"/>
       {/* <br /> */}
-      <span className="orange_gradient text-center"> AI-Powered Prompts</span>
+      <span className="orange_gradient text-center"> Foreign Language </span> 
+      <br/>AI-Prompts
     </h1>
     <p className="desc text-center">
-      Promptopia is an open-source AI prompting tool for users to discover, create and share creative prompts
+      Promptopia is an open-source AI-prompt database for AI foreign language conversations. Create, edit and share various prompts that enable any AI of your choice to simulate a foreign language conversation. 
     </p>
 
     <Feed />
