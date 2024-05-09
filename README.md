@@ -94,10 +94,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
 
-<details>
-<summary><code>globals.css</code></summary>
 
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
